@@ -1,0 +1,14 @@
+.login-page{
+    background: url("../../assets/backgroung.png") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    .login-form{
+        width: 30%;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        position: relative;
+        left: 68%;
+        top: 20%;
+    }
+}
