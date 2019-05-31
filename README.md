@@ -69,5 +69,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 url传参：
-在Router.js中 <Route exact path="/detail/:id" component={Detail}/>
-在获取参数的页面使用this.props.match.params获取url传过来的参数：<Route exact path="/detail/:id" component={Detail}/>
+在Router.js中,path="/detail/:id" <Route exact path="/detail/:id" component={Detail}/>
+在获取参数的页面使用this.props.match.params获取url传过来的参数;
