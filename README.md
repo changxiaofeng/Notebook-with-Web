@@ -71,3 +71,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 url传参：
 在Router.js中,path="/detail/:id" <Route exact path="/detail/:id" component={Detail}/>;
 在获取参数的页面使用this.props.match.params获取url传过来的参数;
+
+### 在React中使用react-router-dom路由：
+我经常用的路由包有两种：react-router 和 react-router-dom,本文主要针对react-router-dom进行说明
+### 安装
+npm install react-router-dom --save-dev //这里可以使用cnpm代替npm命令
+### 基本操作
+
+
+
