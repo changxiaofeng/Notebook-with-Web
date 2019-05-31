@@ -13,22 +13,23 @@ class Login extends React.Component {
             <div className="login-page">
                 <Form onSubmit={this.handleSubmit} className="login-form">
                     <Form.Item>
-                    <Input
-                        prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                        placeholder="Username"
-                    />
+                        <Input
+                            prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                            placeholder="Username"
+                        />
                     </Form.Item>
                     <Form.Item>
-                    <Input
-                        prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                        type="password"
-                        placeholder="Password"
-                    />
+                        <Input
+                            prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                            type="password"
+                            placeholder="Password"
+                        />
                     </Form.Item>
                     <Form.Item>
-                    <Button type="primary" htmlType="submit" className="login-form-button">
-                        <a href="/#/Register/3">Log in</a>
-                    </Button>
+                        <Button type="primary" htmlType="submit" className="login-form-button">
+                            <a href="/#/Register/3">Log in</a>
+                        </Button>
+                        <a onClick={() => this.props.history.push('/Register/3')}>函数跳转</a>
                     </Form.Item>
                 </Form>
             </div>
